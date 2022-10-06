@@ -1,0 +1,134 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: azure;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+.nav-link:hover{
+    color:burlywood;
+    font-family: Ubuntu;
+    font-weight: 700;
+}
+.dognavimg{
+    transform: rotate(25deg);
+    width:26%;
+    position:absolute;
+    right:15%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size:20px;
+}
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+#helloRow{
+    text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+p{
+    color: #8f8f8f;
+}
+#testimonials{
+    text-align: center;
+    background-color:#ef8172;
+}
+.carousel-item{
+    padding: 7% 15%; 
+}
+.testimonial-text{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: azure;
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 50%;
+    margin: 10px;
+}
+em{
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: larger;
+}
+#press{
+    text-align: center;
+    background-color:#ef8172;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.rates{
+    font-family: Montserrat;
+    font-size:2rem;
+    font-weight: 900;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.ratecol{
+    padding:30px;
+}
+#features{
+    background-color: white;
+    position:relative;
+    z-index:1
+}
+@media (max-width:990px){
+    .dognavimg{
+        position:static;
+        width:60%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+#footer{
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    line-height: 1.5;
+    text-indent: 15px;
+    margin-bottom: 25px;
+    font-size:1.25rem;
+}
+.final>h3{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3rem;
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 10% 5% 10%;
+    line-height: 1.5;
+    word-spacing: 5px;
+    background-color: #ff4c68;
+    color: azure;
+}
+.findown{
+    text-align: center;
+}
